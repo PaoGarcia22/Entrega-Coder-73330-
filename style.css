@@ -86,11 +86,11 @@ img {
 }
 
 
-.menu a {
+.nav-link {
     margin: 0 10px;
 }
-.menu:hover{
-    scale: 1.2;
+.nav-link:hover{
+    scale: 1.1;
 }
 
 .imagenheader{
@@ -134,7 +134,7 @@ img {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
 
     
 }
