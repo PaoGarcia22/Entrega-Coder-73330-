@@ -53,13 +53,43 @@
 
   </header>
 
+<form action=""></form>
+
+
   <main>
-    <div class="container">
-      <h1>PÁGINA EN DESARROLLO</h1>
-      <img src="../imagenes/Gif-Logo-fondo.gif" alt="Logo AS">
-      <br>
-      <strong><a href="../index.html">Volver Home</a></strong>
+<section class="contactos">
+  <h2>Contáctanos</h2>
+  <form class="formulario">
+    
+    <div class="grid-form">
+      <div class="form-group">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" required>
+      </div>
+
+      <div class="form-group">
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido">
+      </div>
+
+      <div class="form-group full-width">
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" name="correo" required>
+      </div>
+
+      <div class="form-group full-width">
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+      </div>
+
+      <div class="form-group full-width">
+        <button type="submit">Enviar</button>
+      </div>
     </div>
+
+  </form>
+</section>
+
   </main>
 
   <footer> <!-- pie de pagina-->

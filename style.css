@@ -115,6 +115,66 @@ img {
   padding: 20px;
 }
 
+/*Fromulario*/
+
+.contactos {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(124, 162, 243, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.contactos h2 {
+  margin-bottom: 20px;
+  font-family: "Edu NSW ACT Cursive", cursive;
+  text-align: center;
+}
+
+.grid-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.form-group {
+  font-family: "Edu NSW ACT Cursive", cursive;
+  display: flex;
+  flex-direction: column;
+}
+
+.full-width {
+  grid-column: 1 / -1;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-family: inherit;
+}
+
+.form-group button {
+  padding: 10px;
+  background-color: #0d47c4b2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-group button:hover {
+  background-color: #062c8b;
+}
+
 
 
 @media (max-width: 768px) {
@@ -130,4 +190,8 @@ img {
     max-width: 100%;
     height: auto;
   }
+ .grid-form {
+    grid-template-columns: 1fr;
+  }
+  
 }
