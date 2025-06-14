@@ -65,8 +65,11 @@ footer{
 /*Logo*/
 .imagenheader{
     position: absolute;
-    top: 10 px;
+    top: 10px;
     left: 10px;
+    width: 120px;
+    display: flex;
+    align-items: flex-start;
 }
 
 
@@ -75,25 +78,12 @@ img {
     height: auto;
 } 
 
-.titulo{
-    
+.titulo{  
     font-family: "Edu NSW ACT Cursive", cursive;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: italic;
-
 }
-
-
-
-
-
-.imagenheader{
-    width: 120px;
-    display: flex;
- align-items: left;
-}
-
 
 .container{
     padding: 20px 20px 0 20px;
@@ -129,8 +119,17 @@ img {
 
 
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+  }
 
-    
+  .imagenheader {
+    display: none;
+  }
+
+  img{
+    max-width: 100%;
+    height: auto;
+  }
 }
-
