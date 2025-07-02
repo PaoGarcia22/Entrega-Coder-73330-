@@ -1,0 +1,27 @@
+
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+    gap: 30px;
+    position: relative;
+    
+}
+
+.nav-link {
+    margin: 0 10px;
+    font-family: "Edu NSW ACT Cursive", cursive;
+    
+}
+.nav-link:hover{
+    scale: 1.2;
+}
+
+.nav-item{
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+
+}
