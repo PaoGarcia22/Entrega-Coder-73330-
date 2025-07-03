@@ -1,0 +1,18 @@
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+  }
+
+  .imagenheader {
+    display: none;
+  }
+
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+ .grid-form {
+    grid-template-columns: 1fr;
+  }
+  
+}

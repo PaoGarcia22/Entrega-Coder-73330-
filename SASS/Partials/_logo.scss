@@ -1,0 +1,26 @@
+.imagenheader{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 120px;
+    display: flex;
+    align-items: flex-start;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+} 
+
+.titulo{  
+    font-family: "Edu NSW ACT Cursive", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: italic;
+}
+
+.container{
+    padding: 20px 20px 0 20px;
+    
+}

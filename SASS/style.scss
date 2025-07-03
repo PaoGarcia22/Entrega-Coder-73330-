@@ -1,5 +1,16 @@
-@use "./componentes/general"
+@use "Partials/general";
 
-@use "./componentes/header"
+@use "Partials/navbar";
 
-@use "./componentes/navbar"
+@use "Partials/logo";
+
+@use "Partials/footer";
+
+@use "Partials/form";
+
+@use "Partials/responsive"; 
+
+
+
+
+
