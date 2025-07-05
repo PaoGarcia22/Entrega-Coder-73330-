@@ -35,6 +35,12 @@ footer {
   margin: 0px;
 }
 
+.imagenAS {
+  width: 250px;
+  height: 250px;
+  transition: transform 0.2s;
+}
+
 .container-fluid {
   display: flex;
   justify-content: space-between;
