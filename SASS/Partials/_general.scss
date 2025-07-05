@@ -60,9 +60,21 @@ footer{
   animation: zoomInSuave 1.5s ease-out forwards;
 }
 
+
+.img-home {
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgb(153, 147, 147);
+    opacity: 0;
+    transform: scale(0.8);
+    animation: zoomInSuave 1.5s ease-out forwards;
+}
+
 @keyframes zoomInSuave {
   to {
     opacity: 2;
     transform: scale(1);
   }
 }
+
