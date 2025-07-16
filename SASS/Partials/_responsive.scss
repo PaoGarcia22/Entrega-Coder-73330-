@@ -4,6 +4,17 @@
   }
 
   .imagenheader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+  }
+  .logo{
+    width: 100px;
+    height: auto;
+  }
+
+  .titulo{
     display: none;
   }
 
@@ -15,7 +26,7 @@
     grid-template-columns: 1fr;
   }
   
-.sobre-mi {
+  .sobre-mi {
   flex-direction: column;
   align-items: center;
   text-align: center;
