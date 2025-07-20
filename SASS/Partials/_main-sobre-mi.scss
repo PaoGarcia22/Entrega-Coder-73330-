@@ -1,0 +1,35 @@
+.sobre-mi {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  padding: 40px 20px 0 20px;
+
+  img.foto-sobre-mi {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px black;
+  }
+
+  p {
+    flex: 1;
+    line-height: 1.6;
+    text-align: justify;
+    
+  }
+}
+
+.foto-sobre-mi {
+  opacity: 0;
+  transform: scale(0.8);
+  animation: zoomInSuave 1.5s ease-out forwards;
+}
+
+.titulo-sobre-mi{  
+    font-family: "Edu NSW ACT Cursive";
+    font-size: 2rem;
+    margin: 0;
+    text-align: center;
+}

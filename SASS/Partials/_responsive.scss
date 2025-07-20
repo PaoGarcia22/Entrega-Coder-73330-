@@ -42,5 +42,19 @@
   }
 }
 
+  .home-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .home-texto {
+    text-align: center;
+    align-items: center;
+  }
+
+  .home-img {
+    margin-bottom: 20px;
+  }
+
 }
 
