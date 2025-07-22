@@ -8,7 +8,6 @@ html, body {
     display: flex;
     flex-direction: column;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
     text-align: center;
 }
 
@@ -20,6 +19,7 @@ header{
     align-items: center;
     position: relative;
 }
+
 main {
     flex: 1;
     padding: 20px;
@@ -32,52 +32,32 @@ footer{
     margin: 0px
 }
 
-.sobre-mi {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 20px;
+h2, h3{
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-family: "Edu NSW ACT Cursive";
+}
+
+
+.btn-principal, .btn-secundario {
+  display: inline-block;
+  background-color: #0d47c4b2;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Edu NSW ACT Cursive";
+  padding: 10px 20px;
+  border-radius: 6px;
   margin-top: 20px;
-  padding: 40px 20px 0 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 
-  img.foto-sobre-mi {
-    width: 300px;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 4px 4px 10px black;
-  }
-
-  p {
-    flex: 1;
-    line-height: 1.6;
-    text-align: justify;
-    
-  }
-}
-
-.foto-sobre-mi {
-  opacity: 0;
-  transform: scale(0.8);
-  animation: zoomInSuave 1.5s ease-out forwards;
 }
 
 
-
-
-.home-img {
-    width: 300px;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 4px 4px 10px rgb(153, 147, 147);
-    opacity: 0;
-    transform: scale(0.8);
-    animation: zoomInSuave 1.5s ease-out forwards;
+.btn-principal:hover {
+  background-color: #062c8b;
 }
 
-@keyframes zoomInSuave {
-  to {
-    opacity: 2;
-    transform: scale(1);
-  }
+.btn-secundario:hover {
+  background-color: #062c8b;
 }
-

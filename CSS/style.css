@@ -35,48 +35,33 @@ footer {
   margin: 0px;
 }
 
-.sobre-mi {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 20px;
+h2, h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-family: "Edu NSW ACT Cursive";
+}
+
+.btn-principal, .btn-secundario {
+  display: inline-block;
+  background-color: rgba(13, 71, 196, 0.6980392157);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Edu NSW ACT Cursive";
+  padding: 10px 20px;
+  border-radius: 6px;
   margin-top: 20px;
-  padding: 40px 20px 0 20px;
-}
-.sobre-mi img.foto-sobre-mi {
-  width: 300px;
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 4px 4px 10px black;
-}
-.sobre-mi p {
-  flex: 1;
-  line-height: 1.6;
-  text-align: justify;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
-.foto-sobre-mi {
-  opacity: 0;
-  transform: scale(0.8);
-  animation: zoomInSuave 1.5s ease-out forwards;
+.btn-principal:hover {
+  background-color: #062c8b;
 }
 
-.home-img {
-  width: 300px;
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 4px 4px 10px rgb(153, 147, 147);
-  opacity: 0;
-  transform: scale(0.8);
-  animation: zoomInSuave 1.5s ease-out forwards;
+.btn-secundario:hover {
+  background-color: #062c8b;
 }
 
-@keyframes zoomInSuave {
-  to {
-    opacity: 2;
-    transform: scale(1);
-  }
-}
 .container-fluid {
   display: flex;
   justify-content: space-between;
@@ -151,12 +136,6 @@ footer {
   background-color: rgba(124, 162, 243, 0.1);
 }
 
-.home h2 {
-  font-size: 2rem;
-  margin-bottom: 10px;
-  font-family: "Edu NSW ACT Cursive";
-}
-
 .home p {
   font-size: 1.2rem;
   margin-bottom: 20px;
@@ -178,7 +157,6 @@ footer {
   padding: 10px 20px;
   border-radius: 6px;
   text-decoration: none;
-  font-weight: bold;
   margin-top: 10px;
 }
 
@@ -310,17 +288,57 @@ footer {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-family: "Edu NSW ACT Cursive";
 }
 
 .psico-button:hover {
   background-color: #062c8b;
 }
 
-.titulo-sobre-mi {
+.img-med {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.contenedor-mediacion {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: start;
+  margin-top: 60px;
+  background-color: rgba(124, 162, 243, 0.192);
+  border-radius: 10px;
+  padding: 40px 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.lista-mediacion {
+  padding-left: 20px;
+  list-style-type: disc;
+  text-align: start;
+}
+
+.lista-mediacion li {
+  margin-bottom: 10px;
+}
+
+.btn-principal, .btn-secundario {
+  padding: 10px;
+  background-color: rgba(13, 71, 196, 0.6980392157);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
   font-family: "Edu NSW ACT Cursive";
-  font-size: 2rem;
-  margin: 0;
-  text-align: center;
+}
+
+.btn-principal:hover {
+  background-color: #062c8b;
+}
+
+.btn-secundario:hover {
+  background-color: #062c8b;
 }
 
 .imagenRS {
@@ -370,7 +388,7 @@ footer {
 }
 
 .form-group {
-  font-family: "Edu NSW ACT Cursive", cursive;
+  font-family: "Edu NSW ACT Cursive";
   display: flex;
   flex-direction: column;
 }
@@ -453,6 +471,9 @@ footer {
   }
   .home-img {
     margin-bottom: 20px;
+  }
+  .contenedor-mediacion {
+    grid-template-columns: 1fr;
   }
 }
 
